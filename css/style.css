@@ -1,0 +1,68 @@
+body{
+    font-family: "Roboto";
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    height:800px;
+    background: #9da2a3;
+    text-align: center;
+}
+h1{
+    padding: 16px;
+    font-size: 22px;
+    color:black;
+    text-align: center;
+}
+
+.main-form {
+   
+    padding:40px 40px;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom:28px;
+    
+}
+.gt-input{
+    width: 400px;
+    height: 20px;
+    padding: 0 25px;
+    font-size:15px;
+    border:0;
+}
+.gt-text{
+    padding:10px 20px;
+    height:70px;
+    width:100% ;
+    
+}
+.gt-input:focus{
+    outline: none;
+}
+.gt-button{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    border: 0;
+    color:white;
+    background: #393b3b;
+    transition: .4s;
+}
+.gt-button:hover{
+    background: #6ec1cc;
+}
+
+.move-up{
+ margin-top:-32px;
+ margin-left: 0px;
+ font-size: 14px;
+ background: #6ec1cc;
+ border-radius: 8px 0;
+ color: black;
+ padding: 4px 8px;
+ min-width: 100px;
+}
+
